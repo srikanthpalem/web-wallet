@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Wallet App</title>
+<link href="../css/myStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="formCnt">
+	<h1 align="center">Customer Registration Form</h1>
+<hr>
+<form method="post" action="../RegisterServlet">
+
+	<table cellpadding="5px" style="margin-left: 50px;">
+		<tr >
+			<td>FirstName*:</td>
+			<td><input type="text" name="firstName" size="20"></td>
+		</tr>
+	
+	<tr>
+			<td>LastName*:</td>
+			<td><input type="text" name="lastName" size="20"></td>
+		</tr>
+		
+		<tr>
+			<td>EmailId*:</td>
+			<td><input type="text" name="email" size="20"></td>
+		</tr>
+		<tr>
+			<td>MobileNo*:</td>
+			<td><input type="text" name="mobile" size="20"></td>
+		</tr>
+		<tr>
+			<td>Date Of Birth*:</td>
+			<td><input type="date" name="dateOfBirth" size="20"></td>
+		</tr>
+		<tr>
+			<td>Password*:</td>
+			<td><input type="password" name="custPassword" size="20"></td>
+		</tr>
+		<tr>
+			<td>DoorNo:</td>
+			<td><input type="text" name="doorNo" size="20"></td>
+		</tr>
+		
+		<tr>
+			<td>StreetName:</td>
+			<td>
+				<textarea rows="5" cols="20" name="streetname"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Choose City:</td>
+			<td>
+				<select name="city">
+					<option value="Chennai" >Chennai</option> 
+					<option value="Hyderabad" >Hyderabad</option>
+					<option value="Pune" >Pune</option>
+					<option value="Bangalore" >Bangalore</option>
+					<option value="Mumbai" >Mumbai</option>
+					<option value="Noida" >Noida</option>
+					<option value="Delhi" >Delhi</option>
+				</select>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td>Pincode:</td>
+			<td><input type="text" name="pincode" size="20" ></td>
+		</tr>
+			
+		<tr>
+			<td>State:</td>
+			<td>
+				<input type="radio" name="state" value="TamilNadu">TamilNadu
+				<input type="radio" name="state" value="Karnataka">Karnataka
+				<input type="radio" name="state" value="Andra">Andra
+				<input type="radio" name="state" value="Maharastra">Maharastra <br>
+				<input type="radio" name="state" value="MadhyaPradhesh">MadhyaPradhesh
+				<input type="radio" name="state" value="Kerala">Kerala
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" value="Register" class="btnClass" name="register">
+			</td>
+		</tr>
+	</table>
+
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+#accCnt{
+	margin-left: 100px;
+	padding-right: 100px;
+}
+table{
+	color:blue;
+	font-size: 16px;
+	font-weight: bold;
+}
+#ifrmCnt{
+	text-decoration: none;
+	border: none;
+}
+body{
+	margin: 0px;
+	text-decoration: none;
+}
+#ifrmCnt{
+	width: 720px;
+	height: 320px;
+}
+.btnClass{
+	border:1px solid blue;
+	background-color: blue;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#frmCnt{
+	width: 720px;
+	border: 1px solid blue;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#menuCnt ul li{
+	list-style:none;
+	text-decoration: none;
+}
+#menuCnt{
+	width: 250px;
+	float: left;
+}
+#menuCnt ul li div a{
+	padding-left: 20px;
+}
+#menuCnt ul li div a:link{
+	text-decoration: none;
+	color: white;
+}
+
+#menuCnt ul li div a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#menuCnt ul li div a:active{
+	color: white;
+}
+
+
+.lbl{
+	width: 200px;
+	height:35px;
+	background-color: blue;
+	padding-top:10px;
+	border-bottom:2px solid white;
+	color:white;
+	font-size: 16px;
+	font-weight: bold;
+}
+#heading{
+	width: 1000px;
+	background-color:blue;
+	color:white;
+	border: 1px solid blue;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	
+}
+#mainCnt{
+	
+	width: 1000px;
+	height:430px;
+	margin: 20px 20px 20px 20px;
+	
+	border: 2px solid blue;
+	border-radius: 25px;
+	
+}
+p{
+	
+	color: blue;
+	
+}

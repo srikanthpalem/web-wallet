@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="../css/mainPage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form method="post" action="../CreateServlet">
+<div id="accCnt">
+<h3 align="center" style="color:blue;">Create Your Account</h3>
+<table>
+	<tr>
+		<td>Choose Account type:</td>
+		<td>
+			<select name="accountType">
+				<option value="SAVINGS">Savings</option>
+				<option value="CURRENT">Current</option>
+				<option value="RD">Recurring Deposit</option>
+				<option value="FD">Fixed Deposit</option>
+				<option value="LOAN">Home Loan</option>
+			</select>
+		</td>
+	</tr>	
+	<tr>
+		<td>Opening Balance:</td>
+		<td>
+			<input type="text" name="balance" size="20" required>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Description:</td>
+		<td>
+			<input type="text" name="description" size="20" required>
+		</td>
+		
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" value="Create Account" class="btnClass">
+		</td>
+	</tr>
+</table>
+
+</div>
+</form>
+</body>
+</html>

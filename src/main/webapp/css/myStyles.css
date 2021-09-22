@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+
+
+.btnClass{
+	border:1px solid blue;
+	background-color: blue;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#formCnt{
+	width:600px;
+	border-radius:25px;
+	
+	border:2px solid blue;
+	margin: 20px 20px 20px 200px;
+	padding: 5px 5px 5px 5px ;
+}
+hr{
+	border-color: blue;
+	border-width: 2px;
+}
+
+h1{
+	color:blue;
+}
+
+#btmcnt{
+	
+	width: 1046px;
+	background-color: blue;
+	color:white;
+	font-size: 14px;
+	font-weight:bold;
+	margin-left: 10px;
+	height: 20px;
+	
+}
+#maincnt{
+	width: 1000px;
+	height:400px;
+	margin: 0px 10px 0px 10px ;
+	border: 2px solid blue;
+	padding: 0px 20px 20px 20px;
+	display: inline-block;
+	
+}
+#para{
+	width: 500px;
+	
+	float: left;
+	border-right-color: blue;
+	border-right-style: solid;
+	padding: 20px 20px 20px 20px;
+	display: block;
+}
