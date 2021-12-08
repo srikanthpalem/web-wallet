@@ -1,4 +1,6 @@
-<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 
 	<persistence-unit name="jpademo">
@@ -6,7 +8,7 @@
 
 		<properties>
 			<property name="hibernate.connection.url"
-				value="jdbc:mysql://aahfvlqilmk4lx.c7znhicdb8ho.us-east-2.rds.amazonaws.com:3306/wallet?autoReconnect=true&amp;useSSL=false" />
+				value="jdbc:mysql://aaoxg6eq5uidwg.c7znhicdb8ho.us-east-2.rds.amazonaws.com:3306/ebdb?autoReconnect=true&amp;useSSL=false" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL5Dialect" />
 			<property name="hibernate.connection.driver_class"
